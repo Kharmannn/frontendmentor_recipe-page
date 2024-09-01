@@ -19,18 +19,19 @@
     src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 
-html, body {
-    height: 100%;
+body {
+    min-height: 100%;
     background-color: var(--stone-100);
-    padding: 0px;
-    margin-top: 0px;
-    color: var(--stone-600);
 }
 
 main {
-    height: 100%;
+    min-height: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: 'Outfit';
+    color: var(--stone-600);
 }
 
 .card-hero {
@@ -38,8 +39,6 @@ main {
     width: 37%;
     height: 100%;
     padding: 30px;
-    margin-top: 60px;
-    margin-bottom: 60px;
     border-radius: 20px;
 }
 
@@ -73,6 +72,12 @@ main {
 
 .card-section {
     margin-top: 20px;
+    border-bottom: 1px solid var(--stone-900);
+}
+
+.card-ingredients {
+    border-bottom: 1px solid var(--stone-900);
+    padding-bottom: 20px;
 }
 
 .prep-section {
@@ -92,6 +97,10 @@ main {
     color: var(--brown-800);
 }
 
+.ingredients-text {
+    padding-left: 20px;
+}
+
 .prep-title {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -105,10 +114,32 @@ main {
     margin-left: 20px;
 }
 
+.inst-bold {
+    font-weight: bold;
+}
+
+.inst-block {
+    margin-left: 20px;
+}
+
 .title-not-h1 {
     font-size: 30px;
     font-family: 'YoungSerif';
     color: var(--brown-800);
+}
+
+.ol-inst {
+    padding-left: 20px;
+}
+
+.card-nutrition-table {
+    border-spacing: 0 30px;
+    width: 100%;
+}
+
+td {
+    padding: 0px 30px 0px 30px; /* Adjust padding as needed for content spacing */
+    text-align: left; /* Ensure text is aligned to the left */
 }
 
 footer {
