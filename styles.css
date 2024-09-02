@@ -38,7 +38,7 @@ main {
     background-color: var(--slate-white);
     width: 37%;
     height: 100%;
-    padding: 30px;
+    padding: 40px;
     border-radius: 20px;
 }
 
@@ -76,7 +76,6 @@ main {
 }
 
 .card-ingredients {
-    border-bottom: 1px solid var(--stone-900);
     padding-bottom: 20px;
 }
 
@@ -120,6 +119,7 @@ main {
 
 .inst-block {
     margin-left: 20px;
+    padding-bottom: 10px;
 }
 
 .title-not-h1 {
@@ -132,19 +132,73 @@ main {
     padding-left: 20px;
 }
 
-.card-nutrition-table {
-    border-spacing: 0 30px;
-    width: 100%;
+.inst-list::marker {
+    color: var(--brown-800);
+    font-weight: 600;
 }
 
-td {
-    padding: 0px 30px 0px 30px; /* Adjust padding as needed for content spacing */
-    text-align: left; /* Ensure text is aligned to the left */
+.nutrition-food {
+    padding-right: 230px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.nutrition-calory {
+    font-weight: 600;
+    width: 100%;
+    color: var(--brown-800);
+}
+
+.nutrition-bottom {
+    border-bottom: solid 1px;
 }
 
 footer {
     text-align: center;
     bottom: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .nutrition-food {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .nutrition-calory {
+        font-weight: 600;
+        width: 100%;
+        color: var(--brown-800);
+        text-align: right;
+    }
+
+    .title-not-h1 {
+        font-size: 20px;
+    }
+
+    .card-title {
+        font-size: 30px;
+    }
+
+    .card-prep-time {
+        background-color: var(--rose-50);
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+
+    .prep-bold {
+        margin-left: 0px;
+    }
+
+    .prep-section::marker {
+        margin-right: 5px;
+    }
+
+    .ingredients-text {
+        padding-left: 5px;
+    }
 }
 
 .attribution { font-size: 11px; text-align: center; }
