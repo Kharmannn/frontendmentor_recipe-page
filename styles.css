@@ -36,7 +36,7 @@ main {
 
 .card-hero {
     background-color: var(--slate-white);
-    width: 40%;
+    width: 50%;
     height: 100%;
     padding: 30px;
     margin-top: 40px;
@@ -73,7 +73,11 @@ main {
 
 .card-section {
     margin-top: 20px;
-    border-bottom: 1px solid var(--stone-900);
+    border-bottom: 0.5px solid var(--stone-900);
+}
+
+.card-ingredients-wrapper {
+    padding-left: 20px;
 }
 
 .card-ingredients {
@@ -105,6 +109,10 @@ main {
     padding-bottom: 10px;
 }
 
+.ingredients-list::marker {
+    font-size: 13px;
+}
+
 .prep-title {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -131,7 +139,7 @@ main {
     font-size: 20px;
     font-family: 'YoungSerif';
     color: var(--brown-800);
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .ol-inst {
@@ -144,7 +152,7 @@ main {
 }
 
 .nutrition-food {
-    padding-right: 230px;
+    padding-right: 250px;
     padding-left: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -182,8 +190,8 @@ footer {
     }
 
     .title-not-h1 {
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 30px;
+        font-weight: 300;
     }
 
     .card-title {
