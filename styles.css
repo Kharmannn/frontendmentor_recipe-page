@@ -28,8 +28,8 @@ main {
     min-height: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 30px;
     font-family: 'Outfit';
     color: var(--stone-600);
 }
@@ -38,7 +38,8 @@ main {
     background-color: var(--slate-white);
     width: 40%;
     height: 100%;
-    padding: 40px;
+    padding: 30px;
+    margin-top: 40px;
     border-radius: 20px;
 }
 
@@ -127,9 +128,10 @@ main {
 }
 
 .title-not-h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'YoungSerif';
     color: var(--brown-800);
+    font-weight: 100;
 }
 
 .ol-inst {
@@ -161,6 +163,7 @@ main {
 footer {
     text-align: center;
     bottom: auto;
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -180,6 +183,7 @@ footer {
 
     .title-not-h1 {
         font-size: 20px;
+        font-weight: 600;
     }
 
     .card-title {
