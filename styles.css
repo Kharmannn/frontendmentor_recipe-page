@@ -36,7 +36,7 @@ main {
 
 .card-hero {
     background-color: var(--slate-white);
-    width: 37%;
+    width: 40%;
     height: 100%;
     padding: 40px;
     border-radius: 20px;
@@ -205,5 +205,11 @@ footer {
     }
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 15px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
